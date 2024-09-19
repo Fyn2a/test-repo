@@ -1,0 +1,38 @@
+##fileformat=VCFv4.2
+##FILTER=<ID=PASS,Description="All filters passed">
+##fileDate=20171222
+##source=PLINKv1.90
+##contig=<ID=1,length=249167691>
+##contig=<ID=2,length=242695901>
+##contig=<ID=3,length=197800245>
+##contig=<ID=4,length=190915651>
+##contig=<ID=5,length=180666277>
+##contig=<ID=6,length=170877445>
+##contig=<ID=7,length=159086805>
+##contig=<ID=8,length=146293415>
+##contig=<ID=9,length=141018424>
+##contig=<ID=10,length=135434552>
+##contig=<ID=11,length=134938471>
+##contig=<ID=12,length=133763353>
+##contig=<ID=13,length=115045730>
+##contig=<ID=14,length=107285438>
+##contig=<ID=15,length=102369712>
+##contig=<ID=16,length=90141356>
+##contig=<ID=17,length=81006630>
+##contig=<ID=18,length=78014583>
+##contig=<ID=19,length=59071322>
+##contig=<ID=20,length=62906515>
+##contig=<ID=21,length=48077813>
+##contig=<ID=22,length=51156934>
+##contig=<ID=23,length=154847490>
+##INFO=<ID=PR,Number=0,Type=Flag,Description="Provisional reference allele, may not be based on rea
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##bcftools_filterVersion=1.2-187-g1a55e45+htslib-1.2.1-256-ga356746
+##bcftools_filterCommand=filter -r 4 vcf_nocomp_merge_geno98.vcf.gz
+#CHROM  POS ID  REF ALT QUAL    FILTER  INFO    FORMAT  1_125   3_5555  4_7565  5_9
+4   71566   rs13125929  T   C   .   PASS    PR  GT  0/1 0/1 0/0
+chr4  	87113   rs2006748   T   C   .   PASS    PR  GT  0/1 0/0 0/0
+4   110646  rs11727494  C   T   .   PASS    PR  GT  0/1 0/0 1/1
+4   142550  rs11735742  T   C   .   PASS    PR  GT  0/1 0/0 0/0
+4   200631  rs6826124   A   G   .   PASS    PR  GT  0/1 1/1 0/1
+4   221623  rs7695945   G   T   .   PASS    PR  GT  0/0 0/0 0/0
